@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(21deg, #10abff, #717473);
+}
+
+header {
+  height: 10vh;
+  border: red 1px solid hidden;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .title-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-section {
+  padding-bottom: 2.5rem;
+  width: 100%;
+  height: 70vh;
+}
+.main-section .display-numbers {
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.main-section .display-numbers label {
+  margin: 8px;
+}
+.main-section .display-numbers input {
+  font-family: inherit;
+  line-height: inherit;
+  color: #2e3750;
+  min-width: 12em;
+  margin: 4px;
+  font-size: 1.5em;
+  background: linear-gradient(21deg, #d40ac4, #21ee06);
+  padding: 5px;
+  border: none;
+  box-shadow: inset 0 0 0 3px #fff;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.main-section .display-numbers input ::input-placeholder {
+  text-align: center;
+}
+.main-section .button-area {
+  height: 500px;
+  display: grid;
+  border: red 1px solid hidden;
+  grid-template-columns: repeat(3, 15%);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 12px 6px;
+  justify-content: center;
+}
+.main-section .button-area button {
+  font-size: 30px;
+  padding: 5px;
+  margin: 10px 10px;
+  border-radius: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/*# sourceMappingURL=demo.css.map */
